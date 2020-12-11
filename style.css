@@ -75,7 +75,7 @@ body {
   margin-top: 71px;
 }
 
-.top .header {
+.header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -252,22 +252,22 @@ body {
           justify-content: space-between;
 }
 
-.main .contacts-info {
+.contacts-info {
   width: 301px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
 }
 
-.main .contacts_img {
+.contacts_img {
   margin-bottom: 56px;
 }
 
-.main .contacts_block {
+.contacts_block {
   margin-bottom: 40px;
 }
 
-.main .contacts_link {
+.contacts_link {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.05em;
@@ -276,21 +276,21 @@ body {
   opacity: 0.6;
 }
 
-.main .contacts_block:last-child {
+.contacts_block:last-child {
   margin-bottom: 0;
 }
 
-.main .contacts-info_text {
+.contacts-info_text {
   font-weight: 300;
   letter-spacing: 0.04em;
 }
 
-.main .phone,
-.main .email {
+.phone,
+.email {
   list-style-type: none;
 }
 
-.main .form {
+.form {
   width: 540px;
   background: #FFFFFF;
   -webkit-box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
@@ -308,7 +308,7 @@ body {
           box-sizing: border-box;
 }
 
-.main .label {
+.label {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.04em;
@@ -316,7 +316,7 @@ body {
   opacity: 0.8;
 }
 
-.main .input {
+.input {
   border: 1px solid #356EAD;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -328,15 +328,15 @@ body {
   margin-top: 8px;
 }
 
-.main .message {
+.message {
   margin-bottom: 72px;
 }
 
-.main .textarea {
+.textarea {
   margin-bottom: 0;
 }
 
-.main .submit {
+.submit {
   background: #5A98D0;
   -webkit-box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
           box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
@@ -357,7 +357,7 @@ body {
   padding-top: 37px;
 }
 
-.header_menu_contacts .contact_header {
+.contact_header {
   background-image: url(img/bg-contacts.jpg);
   background-repeat: no-repeat;
   padding-top: 51px;
@@ -365,7 +365,7 @@ body {
   background-size: cover;
 }
 
-.header_menu_contacts .contact_header_block {
+.contact_header_block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -378,7 +378,7 @@ body {
           align-items: center;
 }
 
-.header_menu_contacts .contacts_heading {
+.contacts_heading {
   font-weight: 500;
   font-size: 44px;
   line-height: 74px;
@@ -388,7 +388,7 @@ body {
   padding-bottom: 16px;
 }
 
-.header_menu_contacts .contact_header_text {
+.contact_header_text {
   font-size: 20px;
   line-height: 30px;
   text-align: center;
